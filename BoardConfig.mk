@@ -27,10 +27,6 @@ TARGET_KERNEL_CONFIG := cyanogenmod_i9100_defconfig
 
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/i9100/overlay/include
 EXYNOS4210_ENHANCEMENTS := true
-
-# touch recovery
-BOARD_TOUCH_RECOVERY := true
-
 # assert
 TARGET_OTA_ASSERT_DEVICE := galaxys2,i9100,GT-I9100,GT-I9100M,GT-I9100P,GT-I9100T
 
